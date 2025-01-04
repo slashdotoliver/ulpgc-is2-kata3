@@ -1,8 +1,8 @@
-package software.ulpgc.control.readers.files;
+package software.ulpgc.kata3.control.readers.files;
 
-import software.ulpgc.model.Title;
-import software.ulpgc.control.deserializers.files.TsvTitleDeserializer;
-import software.ulpgc.control.readers.TitleReader;
+import software.ulpgc.kata3.model.Title;
+import software.ulpgc.kata3.control.persistence.deserializers.files.TsvTitleDeserializer;
+import software.ulpgc.kata3.control.readers.TitleReader;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -1,4 +1,4 @@
-package software.ulpgc.model;
+package software.ulpgc.kata3.model;
 
 import java.time.Duration;
 import java.time.Year;

@@ -1,6 +1,6 @@
-package software.ulpgc.control.deserializers;
+package software.ulpgc.kata3.control.persistence.deserializers;
 
-import software.ulpgc.model.Title;
+import software.ulpgc.kata3.model.Title;
 
 import java.util.Optional;
 

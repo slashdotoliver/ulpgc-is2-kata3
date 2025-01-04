@@ -1,7 +1,7 @@
-package software.ulpgc.control.deserializers.files;
+package software.ulpgc.kata3.control.persistence.deserializers.files;
 
-import software.ulpgc.model.Title;
-import software.ulpgc.control.deserializers.TitleDeserializer;
+import software.ulpgc.kata3.model.Title;
+import software.ulpgc.kata3.control.persistence.deserializers.TitleDeserializer;
 
 import java.time.Duration;
 import java.time.Year;
