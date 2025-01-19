@@ -1,4 +1,4 @@
-package software.ulpgc.kata3.model;
+package software.ulpgc.kata3.model.entities;
 
 import java.util.List;
 

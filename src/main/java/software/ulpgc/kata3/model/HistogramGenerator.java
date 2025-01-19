@@ -1,6 +1,6 @@
-package software.ulpgc.kata3.control;
+package software.ulpgc.kata3.model;
 
-import software.ulpgc.kata3.model.Histogram;
+import software.ulpgc.kata3.model.entities.Histogram;
 
 import java.util.List;
 import java.util.Map;

@@ -1,10 +1,10 @@
 package software.ulpgc.kata3;
 
-import software.ulpgc.kata3.control.HistogramGenerator;
-import software.ulpgc.kata3.control.readers.TitleReader;
-import software.ulpgc.kata3.control.readers.files.TsvTitleReader;
-import software.ulpgc.kata3.model.Histogram;
-import software.ulpgc.kata3.model.Title;
+import software.ulpgc.kata3.model.HistogramGenerator;
+import software.ulpgc.kata3.persistence.readers.TitleReader;
+import software.ulpgc.kata3.persistence.readers.files.TsvTitleReader;
+import software.ulpgc.kata3.model.entities.Histogram;
+import software.ulpgc.kata3.model.entities.Title;
 import software.ulpgc.kata3.view.MainFrame;
 
 import java.io.File;

@@ -1,6 +1,6 @@
-package software.ulpgc.kata3.control.readers;
+package software.ulpgc.kata3.persistence.readers;
 
-import software.ulpgc.kata3.model.Title;
+import software.ulpgc.kata3.model.entities.Title;
 
 import java.io.IOException;
 import java.util.List;

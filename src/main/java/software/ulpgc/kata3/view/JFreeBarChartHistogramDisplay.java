@@ -4,7 +4,7 @@ import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
 import org.jfree.data.category.DefaultCategoryDataset;
-import software.ulpgc.kata3.model.Histogram;
+import software.ulpgc.kata3.model.entities.Histogram;
 
 import javax.swing.*;
 import java.awt.*;
@@ -34,8 +34,8 @@ public class JFreeBarChartHistogramDisplay extends JPanel implements HistogramDi
         histogram.labels()
                 .forEach(label -> dataset.addValue(
                         histogram.valueOf(label),
-                        "Absolute Frequency",
-                        label
+                        label,
+                        "Absolute Frequency"
                 ));
     }
 
